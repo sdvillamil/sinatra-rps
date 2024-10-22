@@ -24,7 +24,7 @@ get("/rock") do
   erb(:rock)
 end
 
-get("/scissor") do
+get("/scissors") do
 
   moves = ["rock","paper","scissors"]
 
